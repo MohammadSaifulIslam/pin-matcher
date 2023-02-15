@@ -33,7 +33,7 @@ body {
 }
 
 input[type='text']{
-    background-color: #3D4153;
+    background-color: #3D4153 !important;
     padding: 10px 0px;
     color: #ffffff;
     width: 80%;
@@ -95,10 +95,11 @@ color: #E0B612;
     margin-top: 20px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section{
     width: 35%;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 .action-left {
     color: #FF3C5F;
